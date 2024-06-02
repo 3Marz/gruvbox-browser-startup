@@ -1,0 +1,57 @@
+
+html, body {
+	padding: 0;
+	margin: 0;
+	background-color: #282828;
+	height: 100dvh;
+}
+
+* {
+	color: #A89984; 
+	font-family: monospace;
+}
+
+.container {
+	height: 100%;
+	width: 100%;
+	
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: center;
+}
+
+.title {
+	font-size: 50px;
+	margin:0;
+}
+
+#search-box {
+	background-color: #303030;
+	padding: 8px 12px 8px 12px;
+	border-radius: 10px;
+	border: none;
+	outline: none;
+	min-width: 50%;
+	margin-bottom: 30px;
+	margin-top: 20px;
+}
+
+#search-box:focus {
+	outline: dashed 2px #202020;
+}
+
+.shortcut-container {
+	display: flex;
+	gap: 20px; 
+}
+
+.shortcut-container a img {
+	width: 60px;
+	transition: 0.2s;
+}
+
+.shortcut-container a img:hover {
+	transform: scale(1.2);
+}
