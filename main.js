@@ -7,6 +7,10 @@ let hours = date.getHours();
 let min = date.getMinutes();
 let mer = hours >= 12 ? "pm" : "am";
 
+if (min < 10) {
+	min = "0"+min;
+}
+
 hours = hours % 12;
 hours = hours ? hours : 12;
 
