@@ -1,4 +1,4 @@
 # A gruvbox themed browser startup page
 
-[screenshot](./screenshot.png)
+![screenshot](./screenshot.png)
 
