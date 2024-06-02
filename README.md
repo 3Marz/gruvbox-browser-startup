@@ -2,3 +2,4 @@
 
 ![screenshot](./screenshot.png)
 
+hosted at https://omar490.github.io/gruvbox-browser-startup/
